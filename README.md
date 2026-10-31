@@ -242,29 +242,3 @@ npm run dev
 | `POST` | `/api/ai/query` | Process bilingual natural language queries (Hindi/English) |
 
 ---
-
-## 🔒 Tamper-Evident Audit Trail
-
-Every operational step generates an immutable state record chained to the previous state using SHA-256 block hashing:
-
-```json
-{
-  "eventId": "EVT-8921-X9",
-  "tokenId": "KP-WHEAT-2026-041",
-  "eventType": "WEIGHMENT_CERTIFIED",
-  "timestamp": "2026-10-31T17:02:18.412Z",
-  "metadata": {
-    "grossWeightKg": 4200,
-    "tareWeightKg": 1200,
-    "netWeightKg": 3000,
-    "moisturePercentage": 11.4,
-    "payableAmountINR": 68250
-  },
-  "previousHash": "a4f89d34e9bc3...e411",
-  "currentHash": "7f8b901cd43ea...991a"
-}
-```
-
-Any retrospective modification to weighment figures, moisture deductions, or MSP payment amounts breaks the hash chain, immediately raising discrepancy flags during audit inspection.
-
----
