@@ -4,7 +4,6 @@
 
 ### _Smart Procurement. Transparent MSP. Empowered Farmers._
 
-[![Smart India Hackathon](https://img.shields.io/badge/SIH-National%20Hackathon-orange.svg?style=for-the-badge)](https://www.sih.gov.in/)
 [![React](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -269,19 +268,3 @@ Every operational step generates an immutable state record chained to the previo
 Any retrospective modification to weighment figures, moisture deductions, or MSP payment amounts breaks the hash chain, immediately raising discrepancy flags during audit inspection.
 
 ---
-
-## 👥 Contributors
-
-Built with dedication for the **Smart India Hackathon (SIH)**.
-
-- **Team Name**
-  - Lead Developer / System Architect — [Your Name](https://github.com/your-profile)
-  - Frontend & UI/UX Engineer — [Member Name](https://github.com/your-profile)
-  - Backend & Database Specialist — [Member Name](https://github.com/your-profile)
-  - AI & Integration Engineer — [Member Name](https://github.com/your-profile)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
