@@ -240,5 +240,3 @@ npm run dev
 | Method | Endpoint        | Description                                                |
 | :----- | :-------------- | :--------------------------------------------------------- |
 | `POST` | `/api/ai/query` | Process bilingual natural language queries (Hindi/English) |
-
----
