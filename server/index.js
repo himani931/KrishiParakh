@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => console.log("Connected to MongoDB Atlas (AgriPulse Database)"))
+  .then(() => console.log("Connected to MongoDB Atlas"))
   .catch((err) => console.error(" MongoDB Connection Error:", err));
 
 app.listen(PORT, () => {
